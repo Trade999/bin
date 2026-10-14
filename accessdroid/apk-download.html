@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AccessDroid APK Download</title>
+<style>
+  :root { --bg:#0a0a0f; --card:#12121a; --border:#2a2a3a; --accent:#6ee7b7; --accent2:#3b82f6; --text:#e2e8f0; --muted:#94a3b8; --glow:rgba(110,231,183,0.15); }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family: 'SF Pro',-apple-system,BlinkMacSystemFont,sans-serif; background:var(--bg); color:var(--text); min-height:100vh; display:flex; align-items:center; justify-content:center; padding:1rem; background-image: radial-gradient(ellipse at 30% 20%, rgba(110,231,183,0.06) 0%, transparent 50%), radial-gradient(ellipse at 70% 80%, rgba(59,130,246,0.06) 0%, transparent 50%); }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:16px; padding:2.5rem; max-width:420px; width:100%; box-shadow: 0 8px 32px rgba(0,0,0,0.4), 0 0 80px var(--glow); }
+  .icon { width:64px; height:64px; background:linear-gradient(135deg, var(--accent), var(--accent2)); border-radius:14px; display:flex; align-items:center; justify-content:center; font-size:28px; margin:0 auto 1.2rem; box-shadow: 0 4px 20px rgba(110,231,183,0.3); }
+  h1 { font-size:1.4rem; font-weight:600; text-align:center; margin-bottom:0.3rem; }
+  .sub { text-align:center; color:var(--muted); font-size:0.85rem; margin-bottom:1.5rem; }
+  .stats { display:grid; grid-template-columns:1fr 1fr 1fr; gap:0.5rem; margin-bottom:1.5rem; }
+  .stat { background:rgba(255,255,255,0.03); border:1px solid var(--border); border-radius:8px; padding:0.6rem; text-align:center; }
+  .stat .val { font-size:0.95rem; font-weight:600; color:var(--accent); }
+  .stat .lbl { font-size:0.7rem; color:var(--muted); margin-top:0.15rem; }
+  .perms { background:rgba(110,231,183,0.05); border:1px solid rgba(110,231,183,0.15); border-radius:8px; padding:0.8rem; margin-bottom:1.5rem; }
+  .perms summary { font-size:0.8rem; color:var(--accent); cursor:pointer; font-weight:500; }
+  .perms ul { margin-top:0.5rem; padding-left:1.2rem; }
+  .perms li { font-size:0.72rem; color:var(--muted); margin:0.15rem 0; line-height:1.4; }
+  .dl-btn { display:block; width:100%; padding:0.9rem; border:none; border-radius:10px; font-size:1rem; font-weight:600; cursor:pointer; text-decoration:none; text-align:center; transition: all 0.2s; background: linear-gradient(135deg, var(--accent), #34d399); color:#000; box-shadow: 0 4px 20px rgba(110,231,183,0.3); }
+  .dl-btn:hover { transform:translateY(-1px); box-shadow: 0 6px 28px rgba(110,231,183,0.45); }
+  .dl-btn:active { transform:translateY(0); }
+  .note { font-size:0.7rem; color:var(--muted); text-align:center; margin-top:1rem; line-height:1.5; }
+  .steps { margin-top:1.2rem; }
+  .steps h3 { font-size:0.8rem; color:var(--accent); margin-bottom:0.5rem; }
+  .step { display:flex; gap:0.6rem; margin-bottom:0.5rem; font-size:0.75rem; color:var(--muted); }
+  .step .num { background:rgba(110,231,183,0.1); color:var(--accent); min-width:20px; height:20px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:0.65rem; flex-shrink:0; }
+  code { background:rgba(255,255,255,0.08); padding:0.15rem 0.4rem; border-radius:4px; font-size:0.72rem; color:var(--accent2); }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="icon">🤖</div>
+  <h1>AccessDroid</h1>
+  <p class="sub">Full AI Agent Screen Controller for Termux</p>
+
+  <div class="stats">
+    <div class="stat"><div class="val">53</div><div class="lbl">Permissions</div></div>
+    <div class="stat"><div class="val">37K</div><div class="lbl">APK Size</div></div>
+    <div class="stat"><div class="val">18+</div><div class="lbl">API Actions</div></div>
+  </div>
+
+  <details class="perms">
+    <summary>Permissions & Capabilities ▾</summary>
+    <ul>
+      <li>🔍 <strong>Accessibility Service</strong> — tap/swipe/type/scroll/UI tree</li>
+      <li>📸 <strong>MediaProjection</strong> — screenshot &amp; screen recording</li>
+      <li>🪟 <strong>Overlay</strong> — draw over other apps</li>
+      <li>⌨️ <strong>Input Injection</strong> — inject key events</li>
+      <li>📦 <strong>Package Mgmt</strong> — install/delete/launch apps</li>
+      <li>⚙️ <strong>Write Settings</strong> — modify system settings</li>
+      <li>📷 <strong>Camera &amp; Mic</strong> — capture photo/audio</li>
+      <li>📍 <strong>Location</strong> — fine + background</li>
+      <li>🔔 <strong>Notifications</strong> — post &amp; read</li>
+      <li>📞 <strong>Phone/SMS</strong> — read state, call log, SMS</li>
+      <li>🔐 <strong>Secure Settings</strong> — WRITE_SECURE_SETTINGS</li>
+      <li>🌐 <strong>Network</strong> — full WiFi/mobile control</li>
+      <li>📱 <strong>Bluetooth/NFC</strong> — device connectivity</li>
+      <li>🗂️ <strong>Storage</strong> — full access (SAF)</li>
+    </ul>
+  </details>
+
+  <a class="dl-btn" href="AccessDroid.apk" download="AccessDroid.apk">
+    ⬇ Download AccessDroid.apk
+  </a>
+
+  <p class="note">
+    Requires Android 7.0+ &nbsp;|&nbsp; Package: <code>com.accessdroid.termux</code><br>
+    Source-signed APK (debug keystore)
+  </p>
+
+  <div class="steps">
+    <h3>Setup Instructions</h3>
+    <div class="step"><span class="num">1</span><span>Install the APK when prompted</span></div>
+    <div class="step"><span class="num">2</span><span>Open <strong>Settings → Accessibility → AccessDroid</strong> → turn ON</span></div>
+    <div class="step"><span class="num">3</span><span>Allow overlay: <strong>Apps → Special access → Display over other apps</strong></span></div>
+    <div class="step"><span class="num">4</span><span>Battery: <strong>Apps → AccessDroid → Battery → Unrestricted</strong></span></div>
+    <div class="step"><span class="num">5</span><span>Usage: <strong>Apps → Special access → App usage access → Termux → Allow</strong></span></div>
+    <div class="step"><span class="num">6</span><span>Test: run <code>amctl tap 540 960</code> in Termux</span></div>
+  </div>
+</div>
+</body>
+</html>
